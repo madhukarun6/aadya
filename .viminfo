@@ -12,7 +12,9 @@
 ~H
 # Command Line History (newest to oldest):
 :wq
-|2,0,1650618080,,"wq"
+|2,0,1650953903,,"wq"
+:wq!
+|2,0,1650691307,,"wq!"
 
 # Search String History (newest to oldest):
 
@@ -25,14 +27,50 @@
 # Registers:
 
 # File marks:
-'0  1  25  ~/file1
-|4,48,1,25,1650618080,"~/file1"
+'0  2  0  ~/file7
+|4,48,2,0,1650953903,"~/file7"
+'1  7  6  ~/.git/MERGE_MSG
+|4,49,7,6,1650691307,"~/.git/MERGE_MSG"
+'2  1  25  ~/file1
+|4,50,1,25,1650618080,"~/file1"
 
 # Jumplist (newest first):
+-'  2  0  ~/file7
+|4,39,2,0,1650953903,"~/file7"
+-'  1  0  ~/file7
+|4,39,1,0,1650953828,"~/file7"
+-'  7  6  ~/.git/MERGE_MSG
+|4,39,7,6,1650691307,"~/.git/MERGE_MSG"
+-'  7  6  ~/.git/MERGE_MSG
+|4,39,7,6,1650691307,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1650691279,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1650691279,"~/.git/MERGE_MSG"
+-'  1  25  ~/file1
+|4,39,1,25,1650618080,"~/file1"
+-'  1  25  ~/file1
+|4,39,1,25,1650618080,"~/file1"
+-'  1  25  ~/file1
+|4,39,1,25,1650618080,"~/file1"
 -'  1  25  ~/file1
 |4,39,1,25,1650618080,"~/file1"
 
 # History of marks within files (newest to oldest):
+
+> ~/file7
+	*	1650953885	0
+	"	2	0
+	^	2	0
+	.	1	59
+	+	1	59
+
+> ~/.git/MERGE_MSG
+	*	1650691304	0
+	"	7	6
+	^	7	7
+	.	7	6
+	+	7	6
 
 > ~/file1
 	*	1650618065	0
